@@ -1,10 +1,36 @@
-
-
-*{
+* {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
-h1{
-    color: red;
+header {
+    width: 1320px;
+    height: 600px;
+    background-image: url('images/Banner\ Image.png');
+    background-size: cover;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #fbff00;
+    
+
 }
+
+header .center {
+    padding-top: 210px;
+  }
+
+  main .first{
+    width: 802px;
+    height: 806px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 1px solid green;
+  }
