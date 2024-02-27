@@ -2,27 +2,40 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    
+}
+
+.marri-w{
     font-family: "Merriweather", serif;
-    font-weight: 300;
+    font-weight: 300px;
     font-style: normal;
 }
 
 header {
     width: 1320px;
     height: 600px;
-    background-image: url('images/Banner\ Image.png');
+    background-image:linear-gradient(145deg,rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)),url('images/Banner\ Image.png');
+
+
     background-size: cover;
     margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     text-align: center;
-    color: #fbff00;
+    color: #ffffff;
+    overflow: hidden;
 
 
 }
 
 header .center {
-    padding-top: 210px;
+    padding: 179px 0px;
 }
 
 main .s-first {
@@ -39,13 +52,20 @@ main .s-first {
 main .s-two {
     width: 1320px;
     height: 600px;
-    background-image: url('images/Vectorrr.png');
+    background-image:linear-gradient(45deg,rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)),
+    url('images/Vectorrr.png');
     background-size: cover;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 25px;
     color: #ffffff;
+    position: relative;
+}
 
+main .s-two .pic{
+    position: absolute;
+    right: 134px;
+  top: 69px;
 }
 
 main .s-two .text {
@@ -75,8 +95,12 @@ main .s-three {
     margin-bottom: 25px;
     padding-top: 140px;
     text-align: center;
-    background-color: #ffe8e8;
+    background-image:linear-gradient(145deg,rgb(255, 229, 229),rgba(255, 0, 0, 0))
 
+}
+
+.bold{
+    font-weight: bold;
 }
 
 main .s-three>button {
@@ -190,6 +214,13 @@ main .s-six .s-six-in .top>.two {
     width: 424px;
     height: 450px;
 }
+
+::after{
+    display: '';
+    clear: both;
+    overflow: hidden;
+}
+
 
 
 
