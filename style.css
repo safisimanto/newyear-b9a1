@@ -75,7 +75,7 @@ main .s-three {
     margin-bottom: 25px;
     padding-top: 140px;
     text-align: center;
-    background-color:#ffe8e8;
+    background-color: #ffe8e8;
 
 }
 
@@ -97,18 +97,17 @@ main .s-four {
     margin: auto;
     margin-top: 100px;
     margin-bottom: 25px;
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-main .s-four .left{
+main .s-four .left {
     width: 392px;
 }
 
-main .s-four .middel{
+main .s-four .middel {
     width: 463px;
     height: 463px;
     border: 15px solid red;
@@ -117,19 +116,156 @@ main .s-four .middel{
 
 }
 
-main .s-four .right{
+main .s-four .right {
     width: 296px;
 }
 
 
- /* common css code */
+main .s-five {
+    width: 1320px;
+    height: 986px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    padding-top: 48px;
+    text-align: center;
 
- .red{
+
+}
+
+main .s-five .s-five-in {
+    height: 662px;
+    position: relative;
+
+}
+
+main .s-five .s-five-in .rectangle-one {
+    position: absolute;
+    right: 0;
+
+}
+
+main .s-five .s-five-in .rectangle-two {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+main .s-five .s-five-in .rectangle-three {
+    position: absolute;
+    left: 0;
+
+
+}
+
+main .s-five .s-five-in .rectangle-four {
+    position: absolute;
+    right: 280px;
+    top: 100px;
+
+}
+
+main .s-six {
+    width: 1320px;
+    min-height: 1163px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    padding-top: 48px;
+
+
+}
+
+main .s-six .s-six-in {}
+
+main .s-six .s-six-in .top,
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+main .s-six .s-six-in .top>.two {
+    width: 424px;
+    height: 450px;
+}
+
+
+
+main .s-seveen {
+    width: 1320px;
+    height: 616px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    padding-top: 100px;
+    background-color: #ffe8e8;
+
+}
+
+main .s-seveen input {
+    border-radius: 20px 0px 0px 20px;
+    width: 438px;
+    height: 72px;
+    font-size: 18px;
+    padding: 0px 20px;
+    border: 2px solid #ffffff;
+}
+
+main .s-seveen>button {
+    width: 210px;
+    height: 72px;
+    background-color: #f00;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius:  0px 20px 20px 0px;
+    cursor: pointer;
+
+}
+
+
+footer{
+    width: 1600px ;
+    height: 609px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0px 100px;
+    padding-top: 100px;
+    background-color: #070211;
+
+}
+
+footer .f-one{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+
+footer .f-one a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .f-two{
+    text-align: center;
+}
+
+footer .f-three{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+
+/* common css code */
+
+.red {
     color: red;
- }
-
-
-
-
-
-
+}
