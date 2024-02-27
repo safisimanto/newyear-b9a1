@@ -17,20 +17,119 @@ header {
     margin-bottom: 25px;
     text-align: center;
     color: #fbff00;
-    
+
 
 }
 
 header .center {
     padding-top: 210px;
-  }
+}
 
-  main .first{
+main .s-first {
     width: 802px;
     height: 806px;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
+}
+
+
+
+main .s-two {
+    width: 1320px;
+    height: 600px;
+    background-image: url('images/Vectorrr.png');
+    background-size: cover;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    color: #ffffff;
+
+}
+
+main .s-two .text {
+    width: 700px;
+    padding-top: 150px;
+    padding-left: 100px;
+
+}
+
+main .s-two .text>button {
+    padding: 8px 16px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+main .s-three {
+    width: 1320px;
+    height: 482px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    padding-top: 140px;
+    text-align: center;
+    background-color:#ffe8e8;
+
+}
+
+main .s-three>button {
+    padding: 8px 16px;
+    border: 2px solid #f00;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #ff0000;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+main .s-four {
+    width: 1320px;
+    height: 463px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
     border: 1px solid green;
-  }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main .s-four .left{
+    width: 392px;
+}
+
+main .s-four .middel{
+    width: 463px;
+    height: 463px;
+    border: 15px solid red;
+    padding: 30px;
+    border-radius: 250px;
+
+}
+
+main .s-four .right{
+    width: 296px;
+}
+
+
+ /* common css code */
+
+ .red{
+    color: red;
+ }
+
+
+
+
+
+
